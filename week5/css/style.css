@@ -1,0 +1,61 @@
+body {
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  flex: 1 1 auto;
+  padding: 10px;
+}
+nav a:hover {
+  color: #00008b;
+  background-color: black;
+}
+
+header,
+footer {
+  background-color: #caf0f8;
+  margin: 0 auto;
+  border: 1px solid #eeeeee;
+  padding: 0.5rem;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+main {
+  padding: 14px;
+  background-color: aqua;
+  margin: 1rem auto;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #00008b;
+  font-size: 30px;
+}
+
+.ima_ge {
+  width: 200px;
+}
+
+.social_media {
+  width: 50px;
+}
+
+header {
+  grid-template-columns: 200px 1fr;
+}
+
+footer {
+  grid-template-columns: 1fr 300px;
+}
